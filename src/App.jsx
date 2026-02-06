@@ -1,12 +1,7 @@
-import WaterLevel from "./components/WaterLevel";
+// src/App.jsx
+import WaterLevelPage from "./pages/WaterLevelPage";
+import "./App.css";
 
-function App() {
-  return (
-    <div style={{ padding: "2rem" }}>
-      <h1>WaterSense</h1>
-      <WaterLevel />
-    </div>
-  );
+export default function App() {
+  return <WaterLevelPage />;
 }
-
-export default App;
